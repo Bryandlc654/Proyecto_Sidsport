@@ -262,18 +262,19 @@ ul li .icn-opciones{
 
 
 /* RECTANGULO DE BORDE */
-.bord-cajasec1 img{
+.bord-cajasec1{
     height: 57.5px;
+    width: 50%;
+    overflow: hidden;
     position: absolute;
-    left: 54.99rem;
+    left: 50%;
     top: 51rem;
 }
 
 
 /* TITULO */
 .contacto h3{
-    font-family: "Helvetica";
-    font-weight: 100;
+    font-weight: 200;
     font-size: 30px;
     text-transform: uppercase;
     position: absolute;
@@ -281,12 +282,13 @@ ul li .icn-opciones{
     line-height: 1.828;
     margin-left: 4rem;
     top: 53.53rem;
+    letter-spacing: 28px;
 }
 
 
 /* MAPA */
 .mapa{
-    width: 50.3%;
+    width: 50%;
     height: 25.2rem;
     margin-top: 12.8rem;
 }
@@ -297,18 +299,18 @@ ul li .icn-opciones{
     list-style: none;
 }
 .subt{
-    font-family: "Helvetica";
     line-height: 0.4;
+    letter-spacing: 11px;
     font-weight: 800;
     text-transform: uppercase;
 }
 .inf{
     font-size: 13px;
-    font-family: "Helvetica";
     text-transform: uppercase;
     margin-top: 13px;
     color: #000000;
-    line-height: 1.08;
+    letter-spacing: 4.4px;
+    line-height: 1.5;
 }
 .lin-info{
     margin-top: 20px;
@@ -327,6 +329,7 @@ ul li .icn-opciones{
     font-size: 15px;
     color: #000000;
     line-height: 1.5;
+    letter-spacing: 5px;
     
 }
 .list-2 li{
@@ -337,6 +340,7 @@ ul li .icn-opciones{
     font-weight: 700;
     color: #000000;
     line-height: 1.5;
+    letter-spacing: 5px;
 }
 .list-2 li a{
     text-decoration: none;
@@ -349,11 +353,11 @@ ul li .icn-opciones{
 .rect10{
     width: 250px;
     height: 80px;
-    margin-top: 7.1rem;
+    margin-top: 6.5rem;
 }
 .btn-ampliar{
     height: 50px;
-    margin-top: 7.1rem;
+    margin-top: 6.5rem;
     margin-left: 12px;
 }
 .imagen-light{
