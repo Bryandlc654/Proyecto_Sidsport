@@ -44,6 +44,13 @@ nav ul li{
 nav ul li a{
     color: #000000;
     text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 0;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid #000000;
+    transition: .4s;
 }
 .social-red a{
     color: #000000;
